@@ -1,0 +1,106 @@
+Notes:
+
+q       =  quit 
+clear   =  clear commends 
+:wq     =  exit with saving
+:q!     =  exit without saving
+cd      =  folder name
+cd ..   =  go back to previous folder
+
+
+% ====================================================================================================================================================================================================================================
+
+
+1. git                                                                                      
+2. git --version
+3. clear
+4. git status
+
+
+5. git config --global user.name "NirmalkumarS2002"
+6. git config --global user.email "nirmalsiva555@gmail.com"
+7. git config --list 
+
+
+8.  git log
+9.  git log --oneline
+10. git log --oneline --graph                                                        (it will open to graph)
+11. git log --graph --oneline --all                                                  (Branch merge graph paakka.)
+12. git show                                                                         (show lastest commit changes)
+13. git ls-files                                                                     ( Git track pannura files list)
+14. pwd (or) Get-Location                                                            (check file path)
+15. dir                                                                              (see the forder)
+
+
+% ====================================================================================================================================================================================================================================
+
+
+16. git clone https://github.com/NirmalkumarS2002/pratice.tasks.git
+17. git remote add origin https://github.com/NirmalkumarS2002/pratice.task2.git       (it will connect reppo and local file)
+18. git init                                                                          (it will create empty reppo)
+
+
+19. git remote -v                                                                     (check current git reppo)
+20. git remote remove origin                                                          (Wrong GitHub repository connect pannitinga.Disconnect panna)
+
+
+21. git add sign.html                                                                 (its moving ot staging area)
+22. git commit -m "sign page added"                                                   (its movedto git )
+23. git push origin main                                                              (file moved to git repp)
+
+
+24. git restore --staged index.html                                                   (Stage remove panna recommend)
+25. git reset filename                                                                (Stage remove panna)
+26. git restore index.html                                                            (filela changes pannito but commit pannala file modified ku kattum again chages panatha mari panna ethu use pannuvanga)
+
+
+27. git pull                                                                          (rep la chagnge pannatha working area ku kondu varum)
+28. git pull origin main                                                              (main branch la panna changes varum)
+29. git fetch                                                                         (main la erunthu changes ah download pannu but, view agathu and merge agathu diff kuduthu tha check pannanum)
+
+
+% ====================================================================================================================================================================================================================================
+
+
+BRANCH ===============================================
+
+30. git branch newbranch3                                                              (create new branch )
+31. git branch -m newname                                                              (Current branch rename pannum.)
+32. git branch -a (or) git branch                                                      (show branchs)
+33. git checkout branchname (or)                                                       (git switch main)  
+34. git diff branchname (or)  git diff main newbranch                                  (check different)
+35. git checkout -b feature  (or)   git swithch -b feature                             (New branch create pannum. Andha branch-ku switch pannum.)
+36. git merge newbranch                                                                (it will add to main branch)
+37. git merge newbranch --no-edit                                                      (ethku kudhta edit vim open agathu)
+
+
+38. git branch -d Feature                                                              ( Feature branch merge pannita apram delete panna local only)  
+39. git branch -D Feature                                                              ( Merge aagala-na delete panna maatum, Force delete pannum. local only)
+40. git push origin --delete feature                                                   (GitHub-la irukkura branch delete panna.)
+
+
+41. git checkout 932d6d3                                                               (Specific commit-ku temporary-a move aagum)
+42. git checkout HEAD~1                                                                (move to privios commit temprary)
+
+43. git revert privioscommitid                                                         (it will move to privious version)
+44. git revert --continue
+
+
+45. git reset --hard 932d6d3                                                           ( Repository-a andha commit state-ku restore pannum. Commit history maari pogum.)
+46. git push --force origin main
+
+
+47. gitignore (it will ignore some files)
+
+
+48. git stash
+49. git stash pop
+
+
+confilict
+git add .
+git merge --continue (or)  git revert --continue
+git merge --abort    (or)  git revert --abort
+
+
+% ====================================================================================================================================================================================================================================
